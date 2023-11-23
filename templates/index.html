@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Lapsed Calculator</title>
+</head>
+<body>
+    <h1>Welcome to the Days Lapsed Calculator!</h1>
+    <form method="post" action="/">
+        <label for="start_date">Enter the initial date (today or YYYY-MM-DD): </label>
+        <input type="text" name="start_date" required><br>
+
+        <label for="end_date">Enter the end date (today or YYYY-MM-DD): </label>
+        <input type="text" name="end_date" required><br>
+
+        <label for="day_exceptions">Are there any day exceptions? (Enter comma-separated days, e.g., 'weekend', or 'none'): </label>
+        <input type="text" name="day_exceptions"><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
